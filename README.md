@@ -49,7 +49,9 @@ Things you may want to cover:
 |name|string|null: false|
 |password|string|null: false|
 ### Association
+- has_many :posts
 - has_many :users, through: :groups_users
+- belongs_to :groups_users
 
 ## postsテーブル
 |Column|Type|Options|
